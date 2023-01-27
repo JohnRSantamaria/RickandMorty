@@ -1,0 +1,11 @@
+.containerGrid {
+  padding: 2rem;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  border: thin solid black;
+}
+

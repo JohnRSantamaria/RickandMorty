@@ -1,0 +1,9 @@
+.containerForm{
+  border: thin solid black;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.warning{
+  border: thin solid red;
+}

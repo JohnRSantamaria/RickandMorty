@@ -1,0 +1,54 @@
+.navigationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: thin solid green;
+  height: 3rem;
+
+}
+
+.links a {
+  min-width: 130px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 2px solid #57cc99;
+  background: #57cc99;
+}
+
+.links a:hover {
+  background: #fff;
+  color: #57cc99
+}
+
+.links a:active {
+  position: relative;
+  top: 1px;
+}
+
+.logout button {
+  min-width: 130px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 2px solid #57cc99;
+  background: #57cc99;
+}
+.logout button:hover{
+  background: #fff;
+  color: #57cc99
+}
+.logout button:active{
+  position: relative;
+  top: 1px;
+}

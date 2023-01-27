@@ -1,0 +1,43 @@
+.containerSearch{
+  height: inherit;
+}
+
+.containerSearch button{
+  min-width: 130px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 2px solid #57cc99;
+  background: #57cc99;
+}
+
+.containerSearch button:hover{
+  background: #fff;
+  color: #57cc99
+}
+.containerSearch button:active{
+  position:relative;
+	top:1px;
+
+}
+.containerSearch input {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #fff;
+  color: #57cc99;
+  border-style: solid;
+  border-radius: 0px;
+  box-shadow: 0px 0px 5px #57cc99;
+
+}
+.containerSearch :focus{
+  outline: none;
+}
+
